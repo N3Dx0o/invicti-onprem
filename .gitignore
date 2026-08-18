@@ -1,0 +1,16 @@
+# Anything the script generates at runtime — these contain the license key,
+# SMTP/database passwords, secrets and customer scan data. Never commit them.
+values.yaml
+.invicti-state
+onpremises/
+onpremises-*.tgz
+
+# Backups and logs
+*.tar.gz
+invicti-backup-*
+invicti-support-*
+*.log
+
+# Editor / OS noise
+.DS_Store
+*.swp
